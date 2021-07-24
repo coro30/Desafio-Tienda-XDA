@@ -1,0 +1,25 @@
+.newsletter {
+    background-color: $Smoky-black;
+
+
+    &__title {
+        h3 {
+        font-family: $old;
+        font-weight: $bold;
+        color: $White;
+        font-size: $medium;
+        margin-bottom: 0;
+        }
+
+
+    }
+
+    &__email {
+        font-family: $raleway;
+        font-weight: $regular;
+        font-size: $small;
+        color: $White;
+        margin-top: 0;
+    }
+    
+}

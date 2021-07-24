@@ -1,0 +1,25 @@
+.article {
+    margin-left: 7vw;
+    margin-right: 7vw;
+    margin-bottom: 20vh;
+
+
+    &__title {
+        h1 {
+        font-family: $old;
+        font-weight: $bold;
+        font-size: $medium;
+        padding-top: 15px;
+        }
+    }
+
+    &__text {
+        font-size: $medium;
+        font-family: $raleway;        
+        color: $Light-gray;
+    }
+    &__buttom {
+        margin-bottom: 40vh;
+      
+    }
+}

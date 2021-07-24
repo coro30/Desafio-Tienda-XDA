@@ -1,0 +1,53 @@
+.navbar {
+    background-color: $White;
+    font-family: $old;
+    font-weight: $bold;
+    height: 50px;
+    padding-bottom: 20px;
+}
+
+.navbar__logo {
+    height: 40px;
+    background-color: $Smoky-black;
+    font-family: $old;
+    font-weight: $bold;
+    font-size: $x-large;
+    color: $White;
+    width: 60px;
+    text-align: center;     
+    left: 0;
+    
+}
+
+.nav-link {
+    font-size: $medium;
+    font-weight: $bold;
+}
+
+@include respond-to ($bp-sm) {
+    .navbar {
+        background-color: $White;
+        font-family: $old;
+        font-weight: $bold;
+        height: 100px;
+        padding-bottom: 20px;
+    }
+
+    .navbar__logo {
+        height: 90px;
+        background-color: $Smoky-black;
+        font-family: $old;
+        font-weight: $bold;
+        font-size: $xxx-large;
+        color: $White;
+        width: 120px;
+        text-align: center;     
+        left: 0;
+    }
+    .nav-link {
+        font-size: $x-large;
+        font-weight: $bold;
+
+    }
+}
+
